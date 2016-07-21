@@ -15,4 +15,15 @@ $('#thebutton').on('click', function () {
   console.log('Click working');
 });
 
+$('.my-form').on('submit', function (e) {
+  e.preventDefault();
+  //console.log('still working');
+  var $someText = $('#your-text').val();
+  $('#dump').text($someText);
+});
+
+$('#reset').on('click', function () {
+  $('#dump').text('');
+});
+
 //console.log(generate());

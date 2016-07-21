@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .main-wrapper {
@@ -12,6 +13,47 @@ body {
   background-color: hsla(200, 10%, 10%, 1);
 }
 
+main{
+  width: 30vw;
+}
+
+.my-form {
+  margin: 0 0 2em 0;
+}
+
+.my-form input[type="text"] {
+  width: 100%;
+  height: 3em;
+  margin-top: 1em;
+}
+
+.my-form label {
+  font-size: 1em;
+  color: white;
+}
+
+button[type="submit"] {
+  width: 6em;
+  height: 2em;
+  margin: 1em 0;
+  background-color: green;
+  color: black;
+  border: 0;
+  outline: 0;
+  border-radius: 1em;
+}
+
+button[type="reset"] {
+  width: 6em;
+  height: 2em;
+  margin: 1em 0;
+  background-color: red;
+  color: black;
+  border: 0;
+  outline: 0;
+  border-radius: 1em;
+}
+
 #thebutton {
   width: 10vw;
   height: 5vh;
@@ -19,4 +61,31 @@ body {
   outline: none;
   border: none;
   font-size: 1rem;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+#dump {
+  color: white;
+  font-size: 2em;
 }
